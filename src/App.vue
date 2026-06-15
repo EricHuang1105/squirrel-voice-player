@@ -267,7 +267,7 @@ body {
 <style scoped>
 @font-face {
   font-family: 'ChenYuluoyan-2.0-Thin';
-  src: url('ChenYuluoyan-2.0-Thin.ttf') format('truetype');
+  src: url('/ChenYuluoyan-2.0-Thin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
