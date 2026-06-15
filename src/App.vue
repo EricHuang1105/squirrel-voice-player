@@ -261,8 +261,9 @@ html, body {
   padding: 0;
   /* 讓整個網頁無論如何延伸，底色都是這段漂亮的暖奶茶漸層，消除黑色區塊 */
   background: linear-gradient(145deg, #fdfbf7 0%, #f0e5d3 50%, #e3ccb8 100%) !important;
-  background-attachment: fixed; /* 讓漸層釘住不隨滾動變形 */
+  position: fixed;
   overflow: hidden; /* 徹底禁止頁面橡皮筋滾動 */
+  width: 100%;
   height: 100%;
 }
 </style>
