@@ -373,7 +373,7 @@ body {
 .quote-section {
   margin-bottom: 40px;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 20px; 
 }
 
 .quote-text {
@@ -410,7 +410,7 @@ body {
   border-radius: 2px;
   background-color: rgba(92, 74, 61, 0.15);
   outline: none;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .progress-slider::-webkit-slider-thumb {
