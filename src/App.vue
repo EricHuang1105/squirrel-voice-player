@@ -30,7 +30,7 @@
 
    <!-- 頂部/背景裝飾區 -->
     <div class="header">
-      <h1 class="title">白鼻心精靈</h1>
+      <h1 class="title">白面鼯鼠精靈</h1>
     </div>
 
     <!-- 進度條與時間軸 -->
