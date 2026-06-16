@@ -24,13 +24,13 @@
 
         <!-- 精靈封面圖片 -->
         <div class="cover-image">
-        <img src="/pangolin.webp" alt="精靈封面" @error="handleImageError" />
+        <img src="/squirrel.webp" alt="精靈封面" @error="handleImageError" />
       </div>
     </div>
 
    <!-- 頂部/背景裝飾區 -->
     <div class="header">
-      <h1 class="title">穿山甲精靈</h1>
+      <h1 class="title">白鼻心精靈</h1>
     </div>
 
     <!-- 進度條與時間軸 -->
@@ -68,7 +68,7 @@
     <!-- 隱藏的主語音頻元素 (有音波動效) -->
     <audio 
       ref="audioRef" 
-      src="pangolin-voice.WAV" 
+      src="/squirrel-voice.wav" 
       crossorigin="anonymous"
       @timeupdate="onTimeUpdate"
       @loadedmetadata="onLoadedMetadata"
@@ -273,7 +273,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #e3ccb8 !important; 
+  background-color: #fbe4ae !important; 
   overflow: hidden;
 }
 </style>
@@ -289,7 +289,7 @@ html, body {
   width: 100%;
   height: 100vh;
   
-  background: linear-gradient(145deg, #fdfbf7 0%, #f0e5d3 50%, #e3ccb8 100%);
+  background: linear-gradient(145deg, #fffaf0 0%, #fbe4ae 50%, #e8cb84 100%);
   
   display: flex;
   flex-direction: column;
@@ -302,7 +302,7 @@ html, body {
   box-sizing: border-box;
   
   font-family: sans-serif;
-  color: #5c4a3d;
+  color: #5c4521;
   overflow: hidden;
 }
 
@@ -374,7 +374,7 @@ html, body {
   margin-top: 50px; 
   margin-bottom: 50px;
   background-color:  transparent;
-  box-shadow: 0 12px 35px rgba(139, 107, 76, 0.2);
+  box-shadow: 0 12px 35px rgba(184, 150, 80, 0.25);
   transition: transform 0.3s ease;
   display: flex;
   align-items: center;
@@ -385,8 +385,8 @@ html, body {
 .cover-logo {
   position: absolute;
   /* 透過 top 和 right 調整 LOGO 在框框內的右上角位置 */
-  top: 55px;    /* 距離框框頂部的距離 */
-  right: 53px;  /* 距離框框右側的距離 */
+  top: 60px;    /* 距離框框頂部的距離 */
+  left: 60px;  /* 距離框框右側的距離 */
   
   /* 控制 LOGO 圖片的大小，您可以根據實際圖片比例微調 */
   width: 70px;  
@@ -459,7 +459,7 @@ html, body {
   background: transparent;
   height: 4px;
   border-radius: 2px;
-  background-color: rgba(92, 74, 61, 0.15);
+  background-color: rgba(92, 69, 33, 0.15);
   outline: none;
   cursor: pointer; 
 }
@@ -491,10 +491,10 @@ html, body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 1px solid rgba(92, 74, 61, 0.2);
+  border: 1px solid rgba(92, 69, 33, 0.2);
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
-  color: #5c4a3d;
+  color: #5c4521;
   display: flex;
   align-items: center;
   justify-content: center;
