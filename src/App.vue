@@ -16,7 +16,7 @@
     </button>
 
     
-    <!-- 精靈封面區 -->
+    <!-- 精靈封面區 --> 
     <div class="cover-wrapper" :class="{ 'is-playing': isPlaying }">
       
         <div class="cover-logo">
