@@ -315,7 +315,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #fbe4ae !important; 
+  background-color: #d8d0be !important; 
   overflow: hidden;
 }
 </style>
@@ -331,7 +331,7 @@ html, body {
   width: 100%;
   height: 100vh;
   
-  background: linear-gradient(145deg, #fffaf0 0%, #fbe4ae 50%, #e8cb84 100%);
+  background: linear-gradient(145deg, #fdfaf6 0%, #ebe4d8 50%, #d8d0be 100%);
   
   display: flex;
   flex-direction: column;
@@ -344,7 +344,7 @@ html, body {
   box-sizing: border-box;
   
   font-family: sans-serif;
-  color: #5c4521;
+  color: #5c4a3d;
   overflow: hidden;
 }
 
@@ -367,7 +367,7 @@ html, body {
   height: 36px;
   border-radius: 50%;
   border: 1px solid rgba(92, 74, 61, 0.2);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(5px);
   color: #a29a96;
   display: flex;
